@@ -218,7 +218,7 @@ $ git checkout -b branch-name origin/branch-name，
 
 #### 建立本地分支和远程分支的关联
 ```bash
-$ git branch --set-upstream branch-name origin/branch-name；
+$ git branch --set-upstream-to=origin/branch-name branch-name；
 ```
 #### 从本地推送分支
 ```bash
